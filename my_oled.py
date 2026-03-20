@@ -3,7 +3,7 @@ import ssd1306
 import gfx
 from time import sleep
 
-i2c = SoftI2C(scl=Pin(33), sda=Pin(32))
+i2c = SoftI2C(scl=Pin(18), sda=Pin(19))
 
 oled_width = 128
 oled_height = 64
